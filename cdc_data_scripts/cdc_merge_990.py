@@ -1,3 +1,7 @@
+""" Merges cdc and open211 data.
+Would use pandas but haven't set that up on this machine.
+This is not optimized, but it's a one-time quick run"""
+
 import os
 import csv
 import re
