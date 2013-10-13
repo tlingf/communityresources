@@ -47,7 +47,7 @@ for row in data_full:
 
 added_fields = ["Match Type", "990 Name", "990 EIN"]
 keys = added_fields + keys
-f = open('cdc_output.csv', 'wb')
+f = open('merge_990_output.csv', 'wb')
 dict_writer = csv.DictWriter(f, keys)
 dict_writer.writer.writerow(keys)
 dict_writer.writerows(data_full)
